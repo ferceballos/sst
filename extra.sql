@@ -1,7 +1,4 @@
-/*
-NUMERO DE CUENTA: 2011-1151
-ALUMNO: GUSTAVO ABRAHAM URBINA TORRES 
-*/
+
 select 
 	pr_id, pr_nombre,cu_nombre,ci_id, 
     (select 
@@ -46,4 +43,6 @@ Inner JOIN cursos_profesores on
 	ci_id_profesor=pr_id
 inner join cursos on
 	cu_id=ci_id_curso;
-	
+	-- CEBALLOS ES PUTITO 
+    -- RODRIGO TAMBIEN
+    -- UBALDO SACA LAS PIZZAS
